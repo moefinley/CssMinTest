@@ -1,0 +1,11 @@
+{
+	"version": 3,
+	"file": "real-example.css",
+	"sources": [
+		"real-example.scss",
+		"_real-two.scss",
+		"_real-one.scss"
+	],
+	"names": [],
+	"mappings": "ACEI,AAAA,wBAAwB,EAAE,AAAS,QAAD,CAAC,cAAc,CAAC;ECMlD,KAAK,EAAE,IAAuB;EAC9B,MAAM,EAAE,CAAC,GDLR;EAFD,ACQA,wBDRwB,ACQzB,OAAS,EDRkB,AAAS,QAAD,CAAC,cAAc,ACQlD,OAAS,CAAC;IACL,OAAO,EAAE,GAAG;IACZ,OAAO,EAAE,KAAK;IACd,MAAM,EAAE,CAAC;IACT,KAAK,EAAE,IAAI;IACX,UAAU,EAAE,MAAM,GACrB"
+}

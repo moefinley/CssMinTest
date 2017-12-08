@@ -1,0 +1,11 @@
+.one-of-twelve-container, .grid-12 .one-container {
+  width: 81px;
+  margin: 0; }
+  .one-of-twelve-container::after, .grid-12 .one-container::after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden; }
+
+/*# sourceMappingURL=real-example.css.map */

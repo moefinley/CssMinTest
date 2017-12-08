@@ -1,0 +1,7 @@
+.one-of-twelve-col, .grid-12 .one-col {
+  color: green;
+  text-align: left; }
+  .one-of-twelve-col::after, .grid-12 .one-col::after {
+    content: 'test'; }
+
+/*# sourceMappingURL=test.css.map */

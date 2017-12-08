@@ -1,0 +1,14 @@
+@mixin mixinOne(){
+    text-align: left;
+    &::after {
+        content: 'test';
+    }
+}
+@mixin mixinTwo(){
+    .one-of-twelve-col, .grid-12 .one-col {
+        color: green;
+        @include mixinOne();
+    }
+}
+
+@include mixinTwo();

@@ -1,0 +1,18 @@
+$columnWidth: 67px;
+$gutterWidth: 14px;
+$columns: 12;
+$defaultBorder: 1px;
+$defaultPadding: 14px;
+
+@mixin container($localColumns) {
+    $oneCol: $gutterWidth + $columnWidth;
+    width: $oneCol * $localColumns;
+    margin: 0;
+    &::after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+}
